@@ -2,7 +2,7 @@
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
 # Prompt
-$omp_config = Join-Path $PSScriptRoot ".\heyitsiveen.omp.json"
+$omp_config = Join-Path $PSScriptRoot "..\oh-my-posh\heyitsiveen.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 # Terminal Icons
