@@ -38,10 +38,10 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
 5. **Oh My Posh**
 
    Install `Oh-My-Posh` by following [Oh-My-Posh Windows Installation](https://ohmyposh.dev/docs/installation/windows#installation)
-   Copy or download my theme `vntbln.omp.json`
+   Copy or download my theme `heyitsiveen.omp.json`
 
    ```shell
-   curl -o .config/oh-my-posh/vntbln.omp.json https://raw.githubusercontent.com/vntbln/ubuntu/main/.config/oh-my-posh/vntbln.omp.json
+   curl -o .config/oh-my-posh/heyitsiveen.omp.json https://raw.githubusercontent.com/vntbln/ubuntu/main/.config/oh-my-posh/heyitsiveen.omp.json
    ```
 
 6. **Terminal Icons**
@@ -101,6 +101,12 @@ This guide will walk you through setting up a fresh installation of Windows 11 f
     ```shell
     mkdir -p ~/.config/wezterm
     nano ~/.config/wezterm/wezterm.lua
+    ```
+
+    or
+
+    ```shell
+    curl -o .config/wezterm/wezterm.lua https://raw.githubusercontent.com/vntbln/ubuntu/main/.config/wezterm/wezterm.lua
     ```
 
     Copy my wezterm.lua
